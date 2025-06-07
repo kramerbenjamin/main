@@ -140,6 +140,11 @@ dist/
 # OS-specific
 ehthumbs.db
 Thumbs.db
+
+# Optional: explicitly ignore your sync logs
+git-auto-sync.log
+git-auto-sync.out.log
+git-auto-sync.err.log
 ```
 
 ---
