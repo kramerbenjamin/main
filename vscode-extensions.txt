@@ -1,0 +1,14 @@
+foxundermoon.shell-format
+github.copilot
+github.copilot-chat
+github.remotehub
+johnpapa.vscode-peacock
+matthiesen-technology.yaml-with-script
+mechatroner.rainbow-csv
+ms-vscode.azure-repos
+ms-vscode.remote-repositories
+oleg-shilo.cs-script
+openai.chatgpt
+pkief.material-icon-theme
+tomoki1207.pdf
+whizkydee.material-palenight-theme
