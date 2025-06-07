@@ -30,18 +30,116 @@ git push -u origin main
 Prevent unnecessary files from being tracked:
 
 ```gitignore
-# macOS
+# macOS system files
 .DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+.Spotlight-V100
+.Trashes
+.fseventsd
+com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
 
-# Log files
-*.log
-
-# VS Code settings
+# VS Code
 .vscode/
+.history/
 
-# Temp files
+# JetBrains IDEs (like PyCharm/WebStorm/IntelliJ)
+.idea/
+*.iml
+
+# Logs and temporary files
+*.log
 *.tmp
 *.swp
+*.bak
+*.backup
+*.orig
+
+# Environment files
+.env
+.env.*     # e.g. .env.production, .env.local
+!.env.example
+
+# Node.js (optional)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Python (optional)
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Docker
+**/.docker/
+.dockerignore
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+*.tfvars
+
+# Kubernetes & Helm
+*.yaml~
+*.kube/
+*.helm/
+
+# Ansible
+*.retry
+*.vault-pass
+*.secret
+
+# Git
+*.rej
+*.orig
+*~ 
+*.sw?
+*.swo
+.gitignore.swp
+
+# Secrets/Sensitive
+secrets/
+private.key
+*.pem
+*.crt
+*.pfx
+*.kdbx
+*.gpg
+*.asc
+
+# Miscellaneous
+coverage/
+*.coverage
+nyc_output/
+logs/
+tmp/
+out/
+build/
+dist/
+.cache/
+.DS_Store
+
+# OS-specific
+ehthumbs.db
+Thumbs.db
 ```
 
 ---
